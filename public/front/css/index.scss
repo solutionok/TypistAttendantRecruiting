@@ -1,0 +1,75 @@
+.search-section {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    
+    .jobs-location{
+        padding-top:20px;
+        
+        .inner-addon {    
+            position: relative;
+
+            .map-icon {
+                position: absolute;
+                left: 15px;
+                top: 15px;
+                font-size: 35px;
+                color:#0c2e8a;
+            }
+
+            input  {
+                padding: 10px 30px 10px 45px;
+                font-size: 24px;
+                border: solid 1px #0c2e8a;
+                color:#0c2e8a;
+            }
+        }
+        label{
+            margin-left: 20px;
+        }
+        button{
+            padding: 10px 30px !important;
+            background: #0c2e8a;
+            border: none;
+            color: #fff;
+            font-weight: 500;
+            font-size:24px;
+            margin-left:20px;
+            transition: all .2s ease-in;
+            -moz-transition: all .2s ease-in;
+            -webkit-transition: all .2s ease-in;
+            border-radius: 5px;
+            &:hover{
+                background-color: #20429e;
+                outline: 0;
+            }
+        }
+    }
+}
+
+.jobs-section{
+    border-top: solid 1px #ddd;
+    padding-top: 20px;
+    
+    .job{
+        border: solid 1px #fff;
+        padding: 5px 10px;
+        background: #f1f1f1;
+    }
+}

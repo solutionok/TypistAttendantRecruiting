@@ -1,0 +1,148 @@
+html {
+  min-height: 100%; }
+
+.hide {
+  display: none !important; }
+
+a {
+  color: #21A2B0;
+  transition: 0.5s; }
+  a:hover, a :active, a :focus {
+    color: #51d8af;
+    outline: none;
+    text-decoration: none; }
+
+.text-tasagent {
+  color: #08465B !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.btn-tasagent {
+  color: #fff;
+  background-color: #08465B;
+  border-color: #08465B; }
+  .btn-tasagent:hover {
+    background-color: #1E5669;
+    border-color: #1E5669; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0; }
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  background: #21A2B0;
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s; }
+
+.back-to-top:focus {
+  background: #21A2B0;
+  color: #fff;
+  outline: none; }
+
+.back-to-top:hover {
+  background: #0c2e8a;
+  color: #fff; }
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif; }
+  body .page-wrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    min-height: calc(100vh);
+    position: relative;
+    padding-bottom: 80px;
+    /*--------------------------------------------------------------
+    # Top Bar
+    --------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    # Header
+    --------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    # Intro Section
+    --------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    # Footer
+    --------------------------------------------------------------*/ }
+    body .page-wrapper #topbar {
+      background: #fff;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 14px; }
+      body .page-wrapper #topbar .contact-info a {
+        line-height: 1;
+        color: #555; }
+      body .page-wrapper #topbar .contact-info a:hover {
+        color: #21A2B0; }
+      body .page-wrapper #topbar .contact-info i {
+        color: #21A2B0;
+        padding: 4px; }
+      body .page-wrapper #topbar .fa-phone {
+        padding-left: 20px;
+        margin-left: 20px;
+        border-left: 1px solid #e9e9e9; }
+      body .page-wrapper #topbar .social-links a {
+        color: #555;
+        padding: 4px 12px;
+        display: inline-block;
+        line-height: 1px;
+        border-left: 1px solid #e9e9e9; }
+      body .page-wrapper #topbar .social-links a:hover {
+        color: #21A2B0; }
+      body .page-wrapper #topbar .social-links a:first-child {
+        border-left: 0; }
+    body .page-wrapper #header {
+      padding: 20px 0;
+      height: 84px;
+      transition: all 0.5s;
+      z-index: 997;
+      background: #fff;
+      box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06); }
+      body .page-wrapper #header #logo h1 {
+        font-size: 42px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700; }
+        body .page-wrapper #header #logo h1 a {
+          color: #0c2e8a;
+          line-height: 1;
+          display: inline-block; }
+          body .page-wrapper #header #logo h1 a span {
+            color: #21A2B0; }
+      body .page-wrapper #header #logo img {
+        padding: 0;
+        margin: -15px 0 0 0; }
+    body .page-wrapper #footer {
+      background: #f2f5f8;
+      padding: 0 0 30px 0;
+      font-size: 14px;
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+    body .page-wrapper #footer .copyright {
+      text-align: center;
+      padding-top: 30px; }
+    body .page-wrapper #footer .credits {
+      text-align: center;
+      font-size: 13px;
+      color: #555; }
+    body .page-wrapper #footer .credits a {
+      color: #0c2e8a; }
+
+/*# sourceMappingURL=style.css.map */

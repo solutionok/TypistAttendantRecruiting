@@ -1,0 +1,38 @@
+/*job apply page*/
+.job-apply .typing-body .operator, .job-apply .typing-body .caller {
+  border: solid 1px #e0e0df;
+  padding: 20px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.1);
+  -ie-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  position: relative;
+  border-top-left-radius: 0; }
+  .job-apply .typing-body .operator .flag, .job-apply .typing-body .caller .flag {
+    position: absolute;
+    left: -1px;
+    top: -29px;
+    padding: 3px 10px 0px 10px;
+    background: #fff;
+    border: solid 1px #e0e0df;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: solid 1px #fff;
+    border-top-color: inherit;
+    border-left-color: inherit;
+    border-right-color: inherit; }
+  .job-apply .typing-body .operator.active, .job-apply .typing-body .caller.active {
+    -webkit-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+    -ie-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 123, 255, 0.25); }
+    .job-apply .typing-body .operator.active .flag, .job-apply .typing-body .caller.active .flag {
+      border-top: solid 3px #40999f;
+      color: #40999f; }
+  .job-apply .typing-body .operator.completed, .job-apply .typing-body .caller.completed {
+    border-color: green; }
+
+/*# sourceMappingURL=typing.css.map */

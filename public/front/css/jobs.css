@@ -1,0 +1,67 @@
+.search-jobs {
+  padding: 15px;
+  margin-bottom: 10px;
+  border-bottom: solid 1px #f1f1f1; }
+  .search-jobs input[type=search] {
+    margin-top: 10px; }
+  .search-jobs button[type=submit] {
+    margin-top: 10px; }
+
+.text-bold {
+  font-weight: 900; }
+
+/*jobs*/
+#jobs .job-list {
+  border: none !important;
+  margin-bottom: 50px;
+  background-color: #fff; }
+  #jobs .job-list .job {
+    padding-top: 10px;
+    border-bottom: solid 1px #aaa;
+    height: 150px;
+    padding-left: 10px;
+    cursor: pointer; }
+    #jobs .job-list .job.active {
+      background-color: #f4f4f4;
+      border-left: solid 2px #ED5044;
+      border-bottom: none; }
+    #jobs .job-list .job:hover {
+      background-color: #fafafa;
+      border-left: solid 2px #7DBBAB; }
+    #jobs .job-list .job .job-body {
+      height: 60px; }
+    #jobs .job-list .job .job-body, #jobs .job-list .job .job-label {
+      padding-left: 35px;
+      padding-bottom: 10px;
+      font-size: 13px; }
+    #jobs .job-list .job .button {
+      background: #21A2B0;
+      border: 0;
+      border-radius: 3px;
+      padding: 10px 30px;
+      color: #fff;
+      transition: 0.4s;
+      cursor: pointer; }
+  #jobs .job-list .job:last-child {
+    border-bottom: none; }
+  #jobs .job-list .pagination {
+    align-items: center;
+    justify-content: center; }
+#jobs .job-detail-view {
+  border: solid 1px;
+  padding: 10px 20px;
+  height: 100%;
+  margin-left: -30px;
+  position: relative;
+  background: #f4f4f4;
+  border: 1px solid #f4f4f4; }
+  #jobs .job-detail-view .card {
+    border-top: 4px solid #ED5044; }
+    #jobs .job-detail-view .card .job-detail-content {
+      text-align: left; }
+
+@media (min-width: 1280px) {
+  .modal-lg {
+    max-width: 1100px; } }
+
+/*# sourceMappingURL=jobs.css.map */

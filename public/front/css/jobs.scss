@@ -1,0 +1,87 @@
+.search-jobs{
+    padding:15px;
+    margin-bottom: 10px;
+    border-bottom:solid 1px #f1f1f1;
+    
+    input[type=search]{
+        margin-top:10px;
+    }
+    
+    button[type=submit]{
+        margin-top:10px;
+    }
+    
+}
+.text-bold{
+    font-weight: 900;
+}
+/*jobs*/
+#jobs{
+    
+    .job-list{
+        border: none!important;
+        margin-bottom: 50px;
+        background-color: #fff;
+        .job{
+            padding-top:10px;
+            border-bottom: solid 1px #aaa;
+            height:150px;
+            padding-left: 10px;
+            cursor:pointer;
+            
+            &.active{
+                background-color: #f4f4f4;
+                border-left: solid 2px #ED5044;
+                border-bottom: none;
+            }
+            &:hover{
+                background-color: #fafafa;
+                border-left: solid 2px #7DBBAB;
+            }
+            .job-body{height: 60px;}
+            .job-body,.job-label{
+                padding-left: 35px;
+                padding-bottom: 10px;
+                font-size: 13px;
+            }
+            .button{
+                background: #21A2B0;
+                border: 0;
+                border-radius: 3px;
+                padding: 10px 30px;
+                color: #fff;
+                transition: 0.4s;
+                cursor: pointer;
+            }
+        }
+        .job:last-child{border-bottom: none}
+        .pagination{
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .job-detail-view{
+        border: solid 1px;
+        padding: 10px 20px;
+        height: 100%;
+        margin-left: -30px;
+        position: relative;
+        background: #f4f4f4;
+        border: 1px solid #f4f4f4;
+        
+        .card{
+            border-top: 4px solid #ED5044;
+            
+            .job-detail-content{
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px){
+    
+    .modal-lg {
+        max-width: 1100px;
+    }
+}

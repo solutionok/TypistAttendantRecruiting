@@ -1,0 +1,130 @@
+.font-weight-bold{
+    font-weight: bold;
+}
+.text-ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*side bar*/
+ul.nav-main{
+
+    li.nav-active a{
+        box-shadow: 4px 0px 0px 0px #0088cc inset;
+        color: #0088cc; 
+        font-weight: bold;
+    }
+
+    li {
+        text-transform: uppercase;
+        i{color: #ddd;}
+        img {
+            width: 1.4em;
+            margin-right: 0.8em;
+        }
+    }
+}
+.header .search{
+    width: 500px;
+}
+.modal-header{
+    background: #0088cc;
+    color: #fff;
+}
+.modal-footer{
+    background: #f6f6f6;
+}
+
+/*inner page header*/
+.page-header {
+    .breadcrumbs{
+        padding-right: 15px;
+    }
+}
+
+/*dashboard page*/
+.dashboard-page .widget-summary{
+    .widget-summary-col{
+        .summary-icon{
+            img{
+                margin-top: -6px;
+                width: 40px;
+            }
+        }
+    }
+} 
+
+/*job page*/
+.job-page { 
+    .job-list{
+        border: solid 1px #ddd;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        background: #fff;
+        box-shadow: 3px 3px 10px #ddd;
+        -webkit-box-shadow: 3px 3px 10px #ddd;
+        -moz-box-shadow: 3px 3px 10px #ddd;
+
+        .job-head{
+            background: #EEEEEE;
+            position: relative;
+
+            h3{
+                background-color:#0088cc;
+                padding: 10px 20px;
+                margin: 0px;
+                color: #fff;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        .job-body{
+            padding: 10px;
+            h5{
+                border-bottom: dashed 1px;
+            }
+            .it-assessor,.it-candidate{
+                text-transform: uppercase;
+            }
+        }
+    }
+    
+    .job-modal{
+        img.preview-img{
+            height: 120px;
+            width: 120px;
+            border: solid 1px #f3f3f3;
+        }
+        .input-daterange .input-group-addon{
+            border-left: solid 1px #ddd;
+        }
+    }
+}
+
+
+/*login page*/
+.login-body{
+    background-image: url('../images/login-back.jpg');
+    background-repeat: no-repeat;
+    
+    .login-logo {
+        display: block;
+        position: fixed;
+        left: 50px;
+        top: 20px;
+    }
+    
+}
+@media (min-width: 768px){
+    .login-body{
+        background-size: cover;
+        
+    }
+}
+@media (min-width: 1000px){
+    .login-body{
+        background-size: 40% 100%;
+    } 
+}
